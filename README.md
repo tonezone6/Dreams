@@ -1,4 +1,8 @@
+# Dreams
 
+Example of separating app design code using Swift Package Manager.  
+
+```swift
 import DreamsDesign
 import SwiftUI
 
@@ -15,7 +19,6 @@ struct ContentView: View {
     }
   }
 }
+```
 
-#Preview {
-  ContentView()
-}
+![Screenshot](screenshot.png)

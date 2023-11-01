@@ -6,7 +6,7 @@ import SwiftUI
 
 extension Font {
   
-  static func load() {
+  private static func load() {
     DreamsFontName.allCases
       .compactMap { Bundle.module.url(forResource: $0.rawValue, withExtension: "ttf") }
       .forEach { CTFontManagerRegisterFontsForURL($0 as CFURL, .process, nil) }
@@ -15,12 +15,12 @@ extension Font {
   static func custom(_ font: DreamsFont, size: CGFloat) -> Font {
     // Load fonts before they can be used.
     Font.load()
-    // Call Apple's Font.custom function to use the custom font
+    // Call Apple's `Font.custom` function to use the custom font.
     return Font.custom(font.name, size: size)
   }
 }
 
-struct FontModifier: ViewModifier {
+private struct FontModifier: ViewModifier {
   let font: DreamsFont
   
   func body(content: Content) -> some View {

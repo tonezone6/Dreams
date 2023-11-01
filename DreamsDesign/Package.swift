@@ -17,10 +17,6 @@ let package = Package(
       name: "DreamsDesign",
       dependencies: [],
       resources: [.process("Resources")]
-    ),
-    .testTarget(
-      name: "DreamsDesignTests",
-      dependencies: ["DreamsDesign"]
     )
   ]
 )

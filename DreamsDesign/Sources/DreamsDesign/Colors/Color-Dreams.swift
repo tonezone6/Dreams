@@ -4,6 +4,9 @@
 
 import SwiftUI
 
+///
+/// Asset colors located in this package
+///
 public enum DreamsColor: String, CaseIterable {
   case dreamsGold
   case dreamsSilver

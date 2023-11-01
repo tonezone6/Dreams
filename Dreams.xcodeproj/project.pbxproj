@@ -21,6 +21,8 @@
 		DB8FDBFF2AF265F000E83FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8FDC022AF265F000E83FF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB8FDC0D2AF27C8A00E83FF6 /* DreamsDesign */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DreamsDesign; sourceTree = "<group>"; };
+		DB8FDC102AF2991400E83FF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DB8FDC112AF2995B00E83FF6 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,8 @@
 		DB8FDBEF2AF265EF00E83FF6 = {
 			isa = PBXGroup;
 			children = (
+				DB8FDC102AF2991400E83FF6 /* README.md */,
+				DB8FDC112AF2995B00E83FF6 /* screenshot.png */,
 				DB8FDC0D2AF27C8A00E83FF6 /* DreamsDesign */,
 				DB8FDBFA2AF265EF00E83FF6 /* Dreams */,
 				DB8FDBF92AF265EF00E83FF6 /* Products */,
