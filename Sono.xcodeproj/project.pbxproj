@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB8FDBFC2AF265EF00E83FF6 /* SonoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FDBFB2AF265EF00E83FF6 /* SonoApp.swift */; };
+		DB8FDBFC2AF265EF00E83FF6 /* Sono.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FDBFB2AF265EF00E83FF6 /* Sono.swift */; };
 		DB8FDBFE2AF265EF00E83FF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FDBFD2AF265EF00E83FF6 /* ContentView.swift */; };
 		DB8FDC002AF265F000E83FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8FDBFF2AF265F000E83FF6 /* Assets.xcassets */; };
 		DB8FDC032AF265F000E83FF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8FDC022AF265F000E83FF6 /* Preview Assets.xcassets */; };
+		DB8FDC0C2AF2677700E83FF6 /* SonoDesign in Frameworks */ = {isa = PBXBuildFile; productRef = DB8FDC0B2AF2677700E83FF6 /* SonoDesign */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB8FDBF82AF265EF00E83FF6 /* Sono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sono.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB8FDBFB2AF265EF00E83FF6 /* SonoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonoApp.swift; sourceTree = "<group>"; };
+		DB8FDBFB2AF265EF00E83FF6 /* Sono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sono.swift; sourceTree = "<group>"; };
 		DB8FDBFD2AF265EF00E83FF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB8FDBFF2AF265F000E83FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8FDC022AF265F000E83FF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB8FDC092AF2677000E83FF6 /* SonoDesign */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SonoDesign; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8FDC0C2AF2677700E83FF6 /* SonoDesign in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +38,10 @@
 		DB8FDBEF2AF265EF00E83FF6 = {
 			isa = PBXGroup;
 			children = (
+				DB8FDC092AF2677000E83FF6 /* SonoDesign */,
 				DB8FDBFA2AF265EF00E83FF6 /* Sono */,
 				DB8FDBF92AF265EF00E83FF6 /* Products */,
+				DB8FDC0A2AF2677700E83FF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,7 +56,7 @@
 		DB8FDBFA2AF265EF00E83FF6 /* Sono */ = {
 			isa = PBXGroup;
 			children = (
-				DB8FDBFB2AF265EF00E83FF6 /* SonoApp.swift */,
+				DB8FDBFB2AF265EF00E83FF6 /* Sono.swift */,
 				DB8FDBFD2AF265EF00E83FF6 /* ContentView.swift */,
 				DB8FDBFF2AF265F000E83FF6 /* Assets.xcassets */,
 				DB8FDC012AF265F000E83FF6 /* Preview Content */,
@@ -65,6 +70,13 @@
 				DB8FDC022AF265F000E83FF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB8FDC0A2AF2677700E83FF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +95,9 @@
 			dependencies = (
 			);
 			name = Sono;
+			packageProductDependencies = (
+				DB8FDC0B2AF2677700E83FF6 /* SonoDesign */,
+			);
 			productName = Sono;
 			productReference = DB8FDBF82AF265EF00E83FF6 /* Sono.app */;
 			productType = "com.apple.product-type.application";
@@ -138,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8FDBFE2AF265EF00E83FF6 /* ContentView.swift in Sources */,
-				DB8FDBFC2AF265EF00E83FF6 /* SonoApp.swift in Sources */,
+				DB8FDBFC2AF265EF00E83FF6 /* Sono.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +359,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB8FDC0B2AF2677700E83FF6 /* SonoDesign */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SonoDesign;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB8FDBF02AF265EF00E83FF6 /* Project object */;
 }
