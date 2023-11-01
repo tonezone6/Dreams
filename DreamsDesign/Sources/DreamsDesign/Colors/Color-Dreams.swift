@@ -1,9 +1,6 @@
 //
-//  SwiftUIView.swift
+//  Color-Dreams
 //  
-//
-//  Created by Alex S. on 01/11/2023.
-//
 
 import SwiftUI
 

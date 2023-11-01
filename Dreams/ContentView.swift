@@ -4,12 +4,14 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    VStack {
+    ZStack {
+      Rectangle()
+        .fill(.dreamsSilver.gradient)
+        .ignoresSafeArea()
       Text("Hello, Dreams!")
-        .foregroundStyle(.dreamsTeal)
+        .foregroundStyle(.dreamsGold)
         .font(.dreams(size: 40, weight: .medium))
     }
-    .padding()
   }
 }
 
