@@ -4,23 +4,23 @@
 import PackageDescription
 
 let package = Package(
-  name: "SonoDesign",
+  name: "DreamsDesign",
   platforms: [.iOS(.v16)],
   products: [
     .library(
-      name: "SonoDesign",
-      targets: ["SonoDesign"]
+      name: "DreamsDesign",
+      targets: ["DreamsDesign"]
     )
   ],
   targets: [
     .target(
-      name: "SonoDesign",
+      name: "DreamsDesign",
       dependencies: [],
       resources: [.process("Resources")]
     ),
     .testTarget(
-      name: "SonoDesignTests",
-      dependencies: ["SonoDesign"]
+      name: "DreamsDesignTests",
+      dependencies: ["DreamsDesign"]
     )
   ]
 )
