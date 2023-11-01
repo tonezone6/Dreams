@@ -1,6 +1,6 @@
 # Dreams
 
-Example of separating app design code using Swift Package Manager.  
+Example of extracting design code from the main app using Swift Package Manager.  
 
 ```swift
 import DreamsDesign
